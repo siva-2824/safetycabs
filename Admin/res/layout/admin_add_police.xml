@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bcka"
+    android:layout_height="match_parent" >
+  <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="ADD POLICE"
+                   android:textColor="#FFF"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.17"
+                
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignLeft="@+id/editText1"
+                android:layout_below="@+id/editText1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.17"
+               
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Contact" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignLeft="@+id/editText2"
+                android:layout_below="@+id/editText2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.17"
+             
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Email" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignLeft="@+id/editText3"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.17"
+              
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Address" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignLeft="@+id/editText5"
+                android:layout_below="@+id/editText5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.17"
+               
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Station" />
+<EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignLeft="@+id/editText5"
+                android:layout_below="@+id/editText5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.17"
+               
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Station Area" />
+<EditText
+                android:id="@+id/isb"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignLeft="@+id/editText5"
+                android:layout_below="@+id/editText5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.17"
+               
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Password" />
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                 android:layout_marginRight="10dp"
+            
+                android:text="Add"
+                />
+
+        </LinearLayout>
+
+</ScrollView>
+    
+</RelativeLayout>
